@@ -1,0 +1,32 @@
+{
+  "name": "hexo-generator-gleb",
+  "version": "1.0.0",
+  "description": "Hexo category and tag generators without per page limits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/hexo-generator-gleb.git"
+  },
+  "keywords": [
+    "hexo-plugin"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/hexo-generator-gleb/issues"
+  },
+  "homepage": "https://github.com/bahmutov/hexo-generator-gleb#readme",
+  "dependencies": {
+    "hexo-pagination": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  }
+}
